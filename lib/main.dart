@@ -67,6 +67,15 @@ class _PaginaHomeState extends State<PaginaHome> {
                 letterSpacing: 6,
               ),
             ),
+            const Text(
+              "Feito por Vitória",
+              style: TextStyle(
+                fontSize: 35,
+                color: Color.fromARGB(255, 240, 7, 116),
+                fontWeight: FontWeight.w500,
+                letterSpacing: 6,
+              ),
+            ),
             Text(
               "$contador",
               style: const TextStyle(
@@ -108,6 +117,7 @@ class _PaginaHomeState extends State<PaginaHome> {
             ),
           ],
         ),
+        
       ),
     );
   }
